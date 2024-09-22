@@ -105,7 +105,7 @@ def main():
 
     # Calculate and print statistics after exiting loop
     avg_rtt = total_rtt / successful_pings if successful_pings > 0 else 0
-    print(f"\nAverage rtt: {avg_rtt:.1f} ms; {successful_pings}/{seq} ({round(100*successful_pings/seq, 2)}%) successful pings.")
+    print(f"\nAverage rtt: {avg_rtt:.1f} ms; {successful_pings}/{seq} ({100*successful_pings/seq:.2f}%) successful pings.")
 
 
 if __name__ == '__main__':
