@@ -30,8 +30,3 @@ sudo python ping.py --dest <destination_ip> [--count <number_of_pings>] [--ttl <
 ### Important Note
 
 This program is a basic implementation of the `ping` command and should be used for educational purposes only. It is designed to demonstrate how ICMP packets work and is not intended for production use.
-
-
-### License
-
-This project is licensed under the MIT License.
